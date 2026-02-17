@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - VanishSTORE | Contas Premium & Elojob</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="servico-styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">
+                    <img src="vanishstore.png" alt="VanishSTORE Logo">
+                    <span>VanishSTORE</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Início</a>
+                    <a href="servico.html" class="nav-link" style="color: var(--primary);">Serviços</a>
+                    <a href="vantagens.html" class="nav-link">Vantagens</a>
+                    <a href="index.html#testimonials" class="nav-link">Avaliações</a>
+                </nav>
+                <a href="https://discord.gg/mah5zC4WzH" target="_blank" class="btn btn-primary">
+                    <i class="bi bi-discord"></i>
+                    Discord
+                </a>
+                <button class="mobile-toggle">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero-services">
+        <div class="container">
+            <h1>Nossos Serviços Premium</h1>
+            <p>
+                Contas verificadas, Elojob profissional e MD Coaching. Tudo que você precisa para dominar 
+                seus jogos favoritos com qualidade garantida e suporte dedicado 24/7.
+            </p>
+            
+            <div class="filter-tabs">
+                <button class="filter-btn" onclick="filterServices('contas')">
+                    <i class="bi bi-person-badge-fill"></i> Contas Premium
+                </button>
+                <button class="filter-btn" onclick="filterServices('elojob')">
+                    <i class="bi bi-trophy-fill"></i> Elojob
+                </button>
+                <button class="filter-btn" onclick="filterServices('coaching')">
+                    <i class="bi bi-controller"></i> MD Coaching
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contas-section" data-category="contas">
+        <div class="container">
+            <h2 class="section-title">Contas Premium Verificadas</h2>
+            <p class="section-subtitle">
+                Contas com skins raras, acesso completo e entrega instantânea. Garantia vitalícia em todas.
+            </p>
+            
+            <div class="products-grid">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="servico.js"></script>
+</body>
+</html>
